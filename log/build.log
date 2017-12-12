@@ -1,0 +1,116 @@
+cgi-bin/build_layout.bash f627ddb40ba1551ef6e9892473a08fd215a3048c846f92 KType standard "KType-Standard-0.kll" "KType-Standard-1.kll"  2>&1
++ DefaultMapOverride='stdFuncMap KType-Standard-0'
++ PartialMapsExpandedOverride='stdFuncMap KType-Standard-1'
++ CMakeExtraArgs=-DCONFIGURATOR=1
++ /srv/KiiConf/controller/Keyboards/k-type.bash -c /srv/KiiConf/controller -o /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92
+linux-gnu/Linux is supported.
+Unix Build
+Selected Generator: Ninja
+/srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92
+-- Build CPU Detected:
+x86_64
+-- Build OS Detected:
+Linux 4.9.7-x86_64-linode80
+-- Compiler Family:
+arm
+-- Compiler Selected:
+gcc
+-- Chip Selected:
+mk20dx256vlh7
+-- Chip Family:
+mk2x
+-- CPU Selected:
+cortex-m4
+-- Compiler Source Files:
+Lib/kinetis.c;Lib/delay.c;Lib/entropy.c;Lib/periodic.c;Lib/time.c
+-- Bootloader Type:
+dfu
+-- Full Compiler:
+/usr/bin/arm-none-eabi-gcc 
+-- Detected Scan Module Source Files:
+Scan/Devices/ISSILed/i2c.c;Scan/Devices/ISSILed/led_scan.c;Scan/Devices/MatrixARMPeriodic/matrix_scan.c;Scan/Devices/PortSwap/port_scan.c;Scan/Devices/UARTConnect/connect_scan.c;Scan/K-Type/scan_loop.c
+-- Detected Macro Module Source Files:
+Macro/PartialMap/macro.c;Macro/PartialMap/result.c;Macro/PartialMap/trigger.c;Macro/PixelMap/pixel.c;/srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/generatedPixelmap.c
+-- Detected Output Module Source Files:
+Output/HID-IO/hidio_com.c;Output/pjrcUSB/output_com.c;Output/pjrcUSB/arm/usb_desc.c;Output/pjrcUSB/arm/usb_dev.c;Output/pjrcUSB/arm/usb_joystick.c;Output/pjrcUSB/arm/usb_keyboard.c;Output/pjrcUSB/arm/usb_mem.c;Output/pjrcUSB/arm/usb_mouse.c;Output/pjrcUSB/arm/usb_rawio.c;Output/pjrcUSB/arm/usb_serial.c
+-- Detected Debug Module Source Files:
+Debug/cli/cli.c;Debug/latency/latency.c;Debug/led/led.c;Debug/print/print.c
+-- Found Git: /usr/bin/git (found version "1.9.1") 
+-- Found Ctags: /usr/bin/ctags (found version "5.9~svn20110310") 
+ctags: cannot open tag file : Permission denied
+-- Found PythonInterp: python3 (found suitable version "3.4.3", minimum required is "3") 
+-- Detected Layout Files:
+/srv/KiiConf/controller/Scan/Devices/ISSILed/capabilities.kll
+/srv/KiiConf/controller/Scan/Devices/MatrixARMPeriodic/capabilities.kll
+/srv/KiiConf/controller/Scan/Devices/PortSwap/capabilities.kll
+/srv/KiiConf/controller/Scan/Devices/UARTConnect/capabilities.kll
+/srv/KiiConf/controller/Macro/PartialMap/capabilities.kll
+/srv/KiiConf/controller/Macro/PixelMap/capabilities.kll
+/srv/KiiConf/controller/Output/HID-IO/capabilities.kll
+/srv/KiiConf/controller/Output/pjrcUSB/capabilities.kll
+/srv/KiiConf/controller/Debug/latency/capabilities.kll
+/srv/KiiConf/controller/Scan/K-Type/scancode_map.kll
+/srv/KiiConf/controller/kll/layouts/stdFuncMap.kll
+/srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/KType-Standard-0.kll
+/srv/KiiConf/controller/kll/layouts/stdFuncMap.kll
+/srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/KType-Standard-1.kll
+-- Found DFU_SUFFIX: /usr/local/bin/dfu-suffix (found version "0.8") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92
+[1/35] Generating KLL Layout
+kll BETA 0.5c.c75044b4986d285966fa5c752324a716d000b3ef - 2017-12-04 18:39:06 -0800
+-- Generating --
+kll_defs.h
+generatedKeymap.h
+generatedPixelmap.c
+kll.json
+[2/35] Building C object CMakeFiles/kiibohd.dir/Scan/Devices/PortSwap/port_scan.c.o
+[3/35] Building C object CMakeFiles/kiibohd.dir/main.c.o
+[4/35] Building C object CMakeFiles/kiibohd.dir/Lib/kinetis.c.o
+[5/35] Building C object CMakeFiles/kiibohd.dir/Lib/delay.c.o
+[6/35] Building C object CMakeFiles/kiibohd.dir/Lib/entropy.c.o
+[7/35] Building C object CMakeFiles/kiibohd.dir/Lib/periodic.c.o
+[8/35] Building C object CMakeFiles/kiibohd.dir/Lib/time.c.o
+[9/35] Building C object CMakeFiles/kiibohd.dir/Scan/Devices/MatrixARMPeriodic/matrix_scan.c.o
+[10/35] Building C object CMakeFiles/kiibohd.dir/Scan/Devices/ISSILed/i2c.c.o
+[11/35] Building C object CMakeFiles/kiibohd.dir/Scan/Devices/ISSILed/led_scan.c.o
+[12/35] Building C object CMakeFiles/kiibohd.dir/Scan/Devices/UARTConnect/connect_scan.c.o
+[13/35] Building C object CMakeFiles/kiibohd.dir/Scan/K-Type/scan_loop.c.o
+[14/35] Building C object CMakeFiles/kiibohd.dir/Macro/PartialMap/macro.c.o
+[15/35] Building C object CMakeFiles/kiibohd.dir/Macro/PartialMap/result.c.o
+[16/35] Building C object CMakeFiles/kiibohd.dir/Macro/PartialMap/trigger.c.o
+[17/35] Building C object CMakeFiles/kiibohd.dir/Macro/PixelMap/pixel.c.o
+[18/35] Building C object CMakeFiles/kiibohd.dir/generatedPixelmap.c.o
+[19/35] Building C object CMakeFiles/kiibohd.dir/Output/HID-IO/hidio_com.c.o
+[20/35] Building C object CMakeFiles/kiibohd.dir/Output/pjrcUSB/output_com.c.o
+[21/35] Building C object CMakeFiles/kiibohd.dir/Output/pjrcUSB/arm/usb_desc.c.o
+[22/35] Building C object CMakeFiles/kiibohd.dir/Output/pjrcUSB/arm/usb_dev.c.o
+[23/35] Building C object CMakeFiles/kiibohd.dir/Output/pjrcUSB/arm/usb_joystick.c.o
+[24/35] Building C object CMakeFiles/kiibohd.dir/Output/pjrcUSB/arm/usb_keyboard.c.o
+[25/35] Building C object CMakeFiles/kiibohd.dir/Output/pjrcUSB/arm/usb_mem.c.o
+[26/35] Building C object CMakeFiles/kiibohd.dir/Output/pjrcUSB/arm/usb_mouse.c.o
+[27/35] Building C object CMakeFiles/kiibohd.dir/Output/pjrcUSB/arm/usb_rawio.c.o
+[28/35] Building C object CMakeFiles/kiibohd.dir/Output/pjrcUSB/arm/usb_serial.c.o
+[29/35] Building C object CMakeFiles/kiibohd.dir/Debug/cli/cli.c.o
+[30/35] Building C object CMakeFiles/kiibohd.dir/Debug/latency/latency.c.o
+[31/35] Building C object CMakeFiles/kiibohd.dir/Debug/led/led.c.o
+[32/35] Building C object CMakeFiles/kiibohd.dir/Debug/print/print.c.o
+[33/35] Linking C executable kiibohd.elf
+Setting new key
+Key Prepended: 0000000000000000
+[34/35] Message for DFU targets
+[35/35] Chip usage for mk20dx256vlh7
+NOTE: kiibohd.secure.dfu.bin is required for secure Kiibohd Bootloaders.
+Only keyboards from late 2017 and onwards, support this.
+See lsusb -d 1c11: -v and look for iInterface 4 Kiibohd DFU Secure.
+Otherwise, use the kiibohd.dfu.bin file when it says iInterface 4 Kiibohd DFU.
+Use the physical reset button on the back of the keyboard to temporarily disable secure mode.
+NOTE2: Secure mode is disabled currently, but will be enabled when key negotiation is supported.
+	 SRAM: 	19% 	12456/65536	bytes
+	Flash: 	28% 	71428/253952	bytes
+Firmware has been compiled into: '/srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92'
+/srv/KiiConf/dist
++ RETVAL=0
++ set +x
+Compilation Completed.
