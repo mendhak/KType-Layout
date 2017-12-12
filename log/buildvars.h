@@ -43,7 +43,7 @@
 #define CLI_CommitDate          "2017-12-06 23:41:44 -0800"
 #define CLI_CommitAuthor        "Jacob Alexander <haata@kiibohd.com>"
 #define CLI_Modules             "Scan(K-Type) Macro(PixelMap) Output(pjrcUSB) Debug(full)"
-#define CLI_BuildDate           "2017-12-12 21:23:20 +0000"
+#define CLI_BuildDate           "2017-12-12 21:40:28 +0000"
 #define CLI_BuildOS             "Linux-4.9.7-x86_64-linode80"
 #define CLI_Arch                "arm"
 #define CLI_Chip                "mk20dx256vlh7"

@@ -1,12 +1,12 @@
-cgi-bin/build_layout.bash f627ddb40ba1551ef6e9892473a08fd215a3048c846f92 KType standard "KType-Standard-0.kll" "KType-Standard-1.kll"  2>&1
+cgi-bin/build_layout.bash 6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026 KType standard "KType-Standard-0.kll" "KType-Standard-1.kll"  2>&1
 + DefaultMapOverride='stdFuncMap KType-Standard-0'
 + PartialMapsExpandedOverride='stdFuncMap KType-Standard-1'
 + CMakeExtraArgs=-DCONFIGURATOR=1
-+ /srv/KiiConf/controller/Keyboards/k-type.bash -c /srv/KiiConf/controller -o /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92
++ /srv/KiiConf/controller/Keyboards/k-type.bash -c /srv/KiiConf/controller -o /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026
 linux-gnu/Linux is supported.
 Unix Build
 Selected Generator: Ninja
-/srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92
+/srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026
 -- Build CPU Detected:
 x86_64
 -- Build OS Detected:
@@ -30,7 +30,7 @@ dfu
 -- Detected Scan Module Source Files:
 Scan/Devices/ISSILed/i2c.c;Scan/Devices/ISSILed/led_scan.c;Scan/Devices/MatrixARMPeriodic/matrix_scan.c;Scan/Devices/PortSwap/port_scan.c;Scan/Devices/UARTConnect/connect_scan.c;Scan/K-Type/scan_loop.c
 -- Detected Macro Module Source Files:
-Macro/PartialMap/macro.c;Macro/PartialMap/result.c;Macro/PartialMap/trigger.c;Macro/PixelMap/pixel.c;/srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/generatedPixelmap.c
+Macro/PartialMap/macro.c;Macro/PartialMap/result.c;Macro/PartialMap/trigger.c;Macro/PixelMap/pixel.c;/srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/generatedPixelmap.c
 -- Detected Output Module Source Files:
 Output/HID-IO/hidio_com.c;Output/pjrcUSB/output_com.c;Output/pjrcUSB/arm/usb_desc.c;Output/pjrcUSB/arm/usb_dev.c;Output/pjrcUSB/arm/usb_joystick.c;Output/pjrcUSB/arm/usb_keyboard.c;Output/pjrcUSB/arm/usb_mem.c;Output/pjrcUSB/arm/usb_mouse.c;Output/pjrcUSB/arm/usb_rawio.c;Output/pjrcUSB/arm/usb_serial.c
 -- Detected Debug Module Source Files:
@@ -51,13 +51,13 @@ ctags: cannot open tag file : Permission denied
 /srv/KiiConf/controller/Debug/latency/capabilities.kll
 /srv/KiiConf/controller/Scan/K-Type/scancode_map.kll
 /srv/KiiConf/controller/kll/layouts/stdFuncMap.kll
-/srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/KType-Standard-0.kll
+/srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/KType-Standard-0.kll
 /srv/KiiConf/controller/kll/layouts/stdFuncMap.kll
-/srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/KType-Standard-1.kll
+/srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/KType-Standard-1.kll
 -- Found DFU_SUFFIX: /usr/local/bin/dfu-suffix (found version "0.8") 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92
+-- Build files have been written to: /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026
 [1/35] Generating KLL Layout
 kll BETA 0.5c.c75044b4986d285966fa5c752324a716d000b3ef - 2017-12-04 18:39:06 -0800
 -- Generating --
@@ -107,9 +107,9 @@ See lsusb -d 1c11: -v and look for iInterface 4 Kiibohd DFU Secure.
 Otherwise, use the kiibohd.dfu.bin file when it says iInterface 4 Kiibohd DFU.
 Use the physical reset button on the back of the keyboard to temporarily disable secure mode.
 NOTE2: Secure mode is disabled currently, but will be enabled when key negotiation is supported.
-	 SRAM: 	19% 	12456/65536	bytes
-	Flash: 	28% 	71428/253952	bytes
-Firmware has been compiled into: '/srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92'
+	 SRAM: 	18% 	12280/65536	bytes
+	Flash: 	27% 	71060/253952	bytes
+Firmware has been compiled into: '/srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026'
 /srv/KiiConf/dist
 + RETVAL=0
 + set +x

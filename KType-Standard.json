@@ -346,8 +346,8 @@
                     "label": "PAUSE"
                 },
                 "1": {
-                    "key": "CONS:PAUSE",
-                    "label": "PAUSE"
+                    "key": "CONS:PAUSEPLAY",
+                    "label": "PL\/PS"
                 }
             },
             "triggers": {
@@ -668,6 +668,10 @@
                 "0": {
                     "key": "PAGEUP",
                     "label": "PGUP"
+                },
+                "1": {
+                    "key": "CONS:VOLUMEUP",
+                    "label": "VOL+"
                 }
             },
             "triggers": {
@@ -924,6 +928,10 @@
                 "0": {
                     "key": "END",
                     "label": "END"
+                },
+                "1": {
+                    "key": "CONS:MUTE",
+                    "label": "MUTE"
                 }
             },
             "triggers": {
@@ -940,6 +948,10 @@
                 "0": {
                     "key": "PAGEDOWN",
                     "label": "PGDN"
+                },
+                "1": {
+                    "key": "CONS:VOLUMEDOWN",
+                    "label": "VOL-"
                 }
             },
             "triggers": {
@@ -1360,10 +1372,6 @@
                 "0": {
                     "key": "UP",
                     "label": "\u2191"
-                },
-                "1": {
-                    "key": "CONS:VOLUMEUP",
-                    "label": "VOL+"
                 }
             },
             "triggers": {
@@ -1508,10 +1516,6 @@
                 "0": {
                     "key": "LEFT",
                     "label": "\u2190"
-                },
-                "1": {
-                    "key": "CONS:MUTE",
-                    "label": "MUTE"
                 }
             },
             "triggers": {
@@ -1528,10 +1532,6 @@
                 "0": {
                     "key": "DOWN",
                     "label": "\u2193"
-                },
-                "1": {
-                    "key": "CONS:VOLUMEDOWN",
-                    "label": "VOL-"
                 }
             },
             "triggers": {
@@ -1548,10 +1548,6 @@
                 "0": {
                     "key": "RIGHT",
                     "label": "\u2192"
-                },
-                "1": {
-                    "key": "CONS:PAUSEPLAY",
-                    "label": "PL\/PS"
                 }
             },
             "triggers": {

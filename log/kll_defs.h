@@ -55,42 +55,42 @@
 //    --pixel-output
 //      generatedPixelmap.c
 //    --preprocessor-tmp-path
-//      /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/tmp_kll
+//      /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/tmp_kll
 //
 // - Configuration File -
 //    ISSILedCapabilities
-//      /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/tmp_kll/_srv_KiiConf_controller_Scan_Devices_ISSILed@['capabilities']_processed.kll
+//      /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/tmp_kll/_srv_KiiConf_controller_Scan_Devices_ISSILed@['capabilities']_processed.kll
 //    MatrixARMPeriodicCapabilities
-//      /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/tmp_kll/_srv_KiiConf_controller_Scan_Devices_MatrixARMPeriodic@['capabilities']_processed.kll
+//      /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/tmp_kll/_srv_KiiConf_controller_Scan_Devices_MatrixARMPeriodic@['capabilities']_processed.kll
 //    PortSwapCapabilities
-//      /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/tmp_kll/_srv_KiiConf_controller_Scan_Devices_PortSwap@['capabilities']_processed.kll
+//      /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/tmp_kll/_srv_KiiConf_controller_Scan_Devices_PortSwap@['capabilities']_processed.kll
 //    UARTConnectCapabilities
-//      /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/tmp_kll/_srv_KiiConf_controller_Scan_Devices_UARTConnect@['capabilities']_processed.kll
+//      /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/tmp_kll/_srv_KiiConf_controller_Scan_Devices_UARTConnect@['capabilities']_processed.kll
 //    PartialMapCapabilities
-//      /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/tmp_kll/_srv_KiiConf_controller_Macro_PartialMap@['capabilities']_processed.kll
+//      /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/tmp_kll/_srv_KiiConf_controller_Macro_PartialMap@['capabilities']_processed.kll
 //    PixelMapCapabilities
-//      /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/tmp_kll/_srv_KiiConf_controller_Macro_PixelMap@['capabilities']_processed.kll
+//      /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/tmp_kll/_srv_KiiConf_controller_Macro_PixelMap@['capabilities']_processed.kll
 //    HID-IOCapabilities
-//      /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/tmp_kll/_srv_KiiConf_controller_Output_HID-IO@['capabilities']_processed.kll
+//      /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/tmp_kll/_srv_KiiConf_controller_Output_HID-IO@['capabilities']_processed.kll
 //    pjrcUSBCapabilities
-//      /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/tmp_kll/_srv_KiiConf_controller_Output_pjrcUSB@['capabilities']_processed.kll
+//      /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/tmp_kll/_srv_KiiConf_controller_Output_pjrcUSB@['capabilities']_processed.kll
 //    latency
-//      /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/tmp_kll/_srv_KiiConf_controller_Debug_latency@['capabilities']_processed.kll
+//      /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/tmp_kll/_srv_KiiConf_controller_Debug_latency@['capabilities']_processed.kll
 // - Generic Files -
 // - Base Layer -
 //    K-Type
-//      /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/tmp_kll/_srv_KiiConf_controller_Scan_K-Type@['scancode_map']_processed.kll
+//      /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/tmp_kll/_srv_KiiConf_controller_Scan_K-Type@['scancode_map']_processed.kll
 // - Default Layer -
 //    stdFuncMap
-//      /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/tmp_kll/_srv_KiiConf_controller_kll_layouts@['stdFuncMap']_processed.kll
+//      /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/tmp_kll/_srv_KiiConf_controller_kll_layouts@['stdFuncMap']_processed.kll
 //    KType
-//      /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/tmp_kll/@['KType-Standard-0']_processed.kll
+//      /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/tmp_kll/@['KType-Standard-0']_processed.kll
 // - Partial Layers -
 //    Layer 1
 //     stdFuncMap
-//       /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/tmp_kll/_srv_KiiConf_controller_kll_layouts@['stdFuncMap']_processed.kll
+//       /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/tmp_kll/_srv_KiiConf_controller_kll_layouts@['stdFuncMap']_processed.kll
 //     KType
-//       /srv/KiiConf/tmp/f627ddb40ba1551ef6e9892473a08fd215a3048c846f92/tmp_kll/@['KType-Standard-1']_processed.kll
+//       /srv/KiiConf/tmp/6a2a5c2484c570aef3c8261ad677a3d915a304cccc9026/tmp_kll/@['KType-Standard-1']_processed.kll
 
 
 
@@ -225,8 +225,8 @@ typedef enum CapabilityIndex {
 // -- Built-in Defines --
 #define CapabilitiesNum_KLL 22
 #define LayerNum_KLL 2
-#define ResultMacroNum_KLL 104
-#define TriggerMacroNum_KLL 122
+#define ResultMacroNum_KLL 103
+#define TriggerMacroNum_KLL 121
 #define MaxScanCode_KLL 95
 #define Pixel_BuffersLen_KLL 2
 #define Pixel_TotalChannels_KLL 192 + 192
